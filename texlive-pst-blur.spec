@@ -54,6 +54,7 @@ PSTricks.
 %doc %{_texmfdistdir}/source/generic/pst-blur/Makefile
 %doc %{_texmfdistdir}/source/generic/pst-blur/pst-blur.dtx
 %doc %{_texmfdistdir}/source/generic/pst-blur/pst-blur.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -64,3 +65,5 @@ PSTricks.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar dvips tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
