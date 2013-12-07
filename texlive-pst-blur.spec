@@ -6,7 +6,7 @@
 # catalog-version 2.0
 Name:		texlive-pst-blur
 Version:	2.0
-Release:	5
+Release:	6
 Summary:	PSTricks package for "blurred" shadows
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/pstricks/contrib/pst-blur
